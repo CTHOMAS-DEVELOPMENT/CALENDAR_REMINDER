@@ -21,7 +21,6 @@ const calendar = state => {
   info.year = year;
   info.monthName = months[month];
   info.reminders = new Array(info.daysInThisMonth);
-
   return info;
 };
 
